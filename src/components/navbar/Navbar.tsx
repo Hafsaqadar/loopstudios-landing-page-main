@@ -19,9 +19,9 @@ export default function Navbar() {
             {/* navbar links */}
 
             <div className=" flex justify-between p-7 lg:px-20 text-white">
-             <h1 className="font-bold text-xl hidden lg:block">loopstudio</h1> 
+             <h1 className="font-bold text-xl font-alata hidden lg:block">loopstudio</h1> 
                 
-                    <ul className="lg:flex space-x-6 sm:hidden hidden font-semibold cursor-pointer">
+                    <ul className="lg:flex font-alata space-x-6 sm:hidden hidden  cursor-pointer">
                         <li className=" hover:underline">About</li>
                         <li className=" hover:underline">Careers</li>
                         <li className=" hover:underline">Events</li>
@@ -33,8 +33,8 @@ export default function Navbar() {
             
           
 
-            <div className=" w-[300px] lg:ml-20 my-10 border-2 border-white p-3 mx-auto  ">
-                <p className="text-3xl w-[200px] font-thin text-white uppercase">Immersive experiences that deliver</p>
+            <div className=" w-[300px] lg:ml-20 my-10 l border-2 border-white p-3 mx-auto  ">
+                <p className="text-3xl w-[200px] font-josefin lg:text-2xl font-thin text-white uppercase">Immersive experiences that deliver</p>
             </div>
   </div>
         </div>
