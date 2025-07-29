@@ -44,12 +44,12 @@ export default function NavbarMobile() {
           </div>
 
           {/* Nav Links */}
-          <ul className="flex flex-col space-y-6 font-semibold text-xl text-white">
-            <li className="hover:text-gray-300 cursor-pointer mt-20 font-thin text-2xl uppercase">About</li>
-            <li className="hover:text-gray-300 cursor-pointer font-thin text-2xl  uppercase">Careers</li>
-            <li className="hover:text-gray-300 cursor-pointer font-thin text-2xl  uppercase">Events</li>
-            <li className="hover:text-gray-300 cursor-pointer font-thin text-2xl  uppercase">Products</li>
-            <li className="hover:text-gray-300 cursor-pointer font-thin text-2xl  uppercase">Support</li>
+          <ul className="flex flex-col space-y-6 text-gray-300 font-josefin text-xl ">
+            <li className="hover:text-white cursor-pointer mt-20 font-thin text-2xl uppercase">About</li>
+            <li className="hover:text-white cursor-pointer font-thin text-2xl  uppercase">Careers</li>
+            <li className="hover:text-white cursor-pointer font-thin text-2xl  uppercase">Events</li>
+            <li className="hover:text-white cursor-pointer font-thin text-2xl  uppercase">Products</li>
+            <li className="hover:text-white cursor-pointer font-thin text-2xl  uppercase">Support</li>
           </ul>
         </div>
       )}
