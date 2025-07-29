@@ -42,8 +42,8 @@ export default function Products() {
 
     return <div className=" p-10">
      {/* text and button */}
-     <div className="flex justify-between w-full lg:px-10">
-        <h1 className=" uppercase lg:text-3xl text-3xl font-medium font-josefin mx-auto lg:text-start">our creations</h1>
+     <div className="flex justify-between w-full lg:px-10 px-10">
+        <h1 className=" uppercase lg:text-3xl text-3xl  font-medium font-josefin ">our creations</h1>
         <button className="border-2 uppercase font-josefin font-semibold border-black lg:px-10 lg:py-1 hidden lg:block">see all</button>
      </div>
 
