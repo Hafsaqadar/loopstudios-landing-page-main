@@ -40,7 +40,7 @@ export default function Footer() {
 
         {/* Copyright (last on mobile, 2nd on lg) */}
         <p className="text-gray-400 text-center lg:text-sm text-xl   font-alata ">
-          © 2023 Loopstudios. All rights reserved.
+          © 2025 Loopstudios. All rights reserved.
         </p>
       </div>
     </div>
