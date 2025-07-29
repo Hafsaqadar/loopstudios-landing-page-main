@@ -11,7 +11,7 @@ export default function Footer() {
       {/* Row 1: Logo + Social icons (lg) */}
       <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-4 mx-auto">
         {/* Logo (always first) */}
-        <h1 className="font-bold lg:text-xl text-3xl text-white ">loopstudios</h1>
+        <h1 className="font-bold lg:text-xl text-3xl text-white  font-alata  ">loopstudios</h1>
 
         {/* Social icons (3rd on mobile, 2nd on lg) */}
         <div className="flex gap-4  ">
@@ -24,7 +24,7 @@ export default function Footer() {
       {/* Row 2: Menu + Copyright */}
       <div className="flex flex-col lg:flex-row justify-between items-center gap-4">
         {/* Menu (2nd on mobile, 1st on lg) */}
-        <ul className="flex flex-col lg:flex-row gap-6 lg:gap-4 items-center lg:text-sm text-2xl ">
+        <ul className=" font-alata flex flex-col lg:flex-row gap-6 lg:gap-4 items-center lg:text-sm text-xl text-gray-400 mt-6 lg:m-0">
           <li className="text-white hover:underline">About</li>
           <li className="text-white hover:underline">Careers</li>
           <li className="text-white hover:underline">Events</li>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright (last on mobile, 2nd on lg) */}
-        <p className="text-gray-400 text-center lg:text-sm text-2xl">
+        <p className="text-gray-400 text-center lg:text-sm text-xl   font-alata ">
           © 2023 Loopstudios. All rights reserved.
         </p>
       </div>
