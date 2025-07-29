@@ -49,23 +49,27 @@ export default function Products() {
 
      {/* images */}
 
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10  lg:p-10 ">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-10  lg:p-10">
      {
         items.map((item, index) => (
         <div  key={index} className="relative h-[200px]  lg:h-[400px] group ">
             {/* desktop images */}
         
         <div
-              className="hidden lg:block h-full w-full bg-cover bg-center"
+              className="hidden lg:block h-full w-full bg-cover bg-center    "
               style={{ backgroundImage: `url(${item.desktop})` }}
             ></div>
         
 
          {/* Mobile image */}
             <div
-              className="lg:hidden h-full  w-full bg-cover bg-center"
+              className="lg:hidden h-full  w-full bg-cover bg-center  cursor-pointer "
               style={{ backgroundImage: `url(${item.mobile})` }}
             ></div>
+
+            
+  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+
 
 
             {/* Overlay text */}
