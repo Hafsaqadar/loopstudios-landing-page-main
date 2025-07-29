@@ -3,37 +3,37 @@ export default function Products() {
 
     const items= [
           
-               { name: "deep earth", 
-                desktop: "/images/desktop/image-deep-earth.jpg", 
-                mobile: "/images/mobile/image-deep-earth.jpg" },
+           { name: "deep earth", 
+           desktop: "/images/desktop/image-deep-earth.jpg", 
+           mobile: "/images/mobile/image-deep-earth.jpg" },
 
-                  { name: "night arcade",
-                     desktop: "/images/desktop/image-night-arcade.jpg",
-                      mobile: "/images/mobile/image-night-arcade.jpg" },
+          { name: "night arcade",
+          desktop: "/images/desktop/image-night-arcade.jpg",
+          mobile: "/images/mobile/image-night-arcade.jpg" },
 
-                       { name: "soccer team vr",
-                        desktop: "/images/desktop/image-soccer-team.jpg",
-                         mobile: "/images/mobile/image-soccer-team.jpg" },
+             { name: "soccer team vr",
+              desktop: "/images/desktop/image-soccer-team.jpg",
+               mobile: "/images/mobile/image-soccer-team.jpg" },
 
-                          { name: "the grid",
-                           desktop: "/images/desktop/image-grid.jpg",
-                            mobile: "/images/mobile/image-grid.jpg" },
+              { name: "the grid",
+                 desktop: "/images/desktop/image-grid.jpg",
+                 mobile: "/images/mobile/image-grid.jpg" },
 
-                             { name: "from up above vr",
+             { name: "from up above vr",
                               desktop: "/images/desktop/image-from-above.jpg",
-                               mobile: "/images/mobile/image-from-above.jpg" },
+                   mobile: "/images/mobile/image-from-above.jpg" },
 
-                                { name: "pocket borealis",
-                                 desktop: "/images/desktop/image-pocket-borealis.jpg",
-                                  mobile: "/images/mobile/image-pocket-borealis.jpg" },
+                   { name: "pocket borealis",
+                      desktop: "/images/desktop/image-pocket-borealis.jpg",
+                   mobile: "/images/mobile/image-pocket-borealis.jpg" },
 
-                                   { name: "the curiosity",
-                                    desktop: "/images/desktop/image-curiosity.jpg",
-                                     mobile: "/images/mobile/image-curiosity.jpg" },
+                     { name: "the curiosity",
+                 desktop: "/images/desktop/image-curiosity.jpg",
+              mobile: "/images/mobile/image-curiosity.jpg" },
 
-                                      { name: "make it fisheye",
-                                       desktop: "/images/desktop/image-fisheye.jpg",
-                                        mobile: "/images/mobile/image-fisheye.jpg" },
+             { name: "make it fisheye",
+       desktop: "/images/desktop/image-fisheye.jpg",
+      mobile: "/images/mobile/image-fisheye.jpg" },
 
 
                    
@@ -42,9 +42,9 @@ export default function Products() {
 
     return <div className=" p-10">
      {/* text and button */}
-     <div className="flex justify-between">
-        <h1 className=" uppercase text-xl">our creations</h1>
-        <button className="border-2 uppercase border-black px-10 py-1">see all</button>
+     <div className="flex justify-between w-full lg:px-10">
+        <h1 className=" uppercase lg:text-3xl text-3xl font-medium font-josefin mx-auto lg:text-start">our creations</h1>
+        <button className="border-2 uppercase font-josefin font-semibold border-black lg:px-10 lg:py-1 hidden lg:block">see all</button>
      </div>
 
      {/* images */}
@@ -69,13 +69,14 @@ export default function Products() {
 
 
             {/* Overlay text */}
-            <div className="absolute bottom-5 left-5 text-white lg:text-2xl text-xl  uppercase font-thin">
+            <div className="absolute bottom-5 left-5 text-white lg:text-2xl text-xl  uppercase font-thin font-josefin">
               {item.name}
             </div>
         </div>
         ))
      }
     </div>
+     <button className="border-2 uppercase bg-white mx-auto mt-9 px-14 py-2 font-josefin font-semibold border-gray-500 lg:px-10 lg:py-1 block lg:hidden">see all</button>
 
     </div>;
 }
