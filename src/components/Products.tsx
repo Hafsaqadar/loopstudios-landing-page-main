@@ -44,7 +44,8 @@ export default function Products() {
      {/* text and button */}
      <div className="flex justify-between w-full lg:px-10 px-10">
         <h1 className=" uppercase lg:text-3xl text-3xl  font-medium font-josefin ">our creations</h1>
-        <button className="border-2 uppercase font-josefin font-semibold border-black lg:px-10 lg:py-1 hidden lg:block">see all</button>
+        <button className="border-2 uppercase font-josefin font-semibold border-black lg:px-10 lg:py-1 hidden lg:block hover:bg-black hover:text-white *:
+        transition duration-300">see all</button>
      </div>
 
      {/* images */}
@@ -80,7 +81,8 @@ export default function Products() {
         ))
      }
     </div>
-     <button className="border-2 uppercase bg-white mx-auto mt-9 px-14 py-2 font-josefin font-semibold border-gray-500 lg:px-10 lg:py-1 block lg:hidden">see all</button>
+     <button className="border-2 uppercase bg-white mx-auto mt-9 px-14 py-2 font-josefin font-semibold border-gray-500 lg:px-10 lg:py-1 block lg:hidden
+     hover:bg-black hover:text-white transition duration-300">see all</button>
 
     </div>;
 }
