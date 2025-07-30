@@ -69,12 +69,12 @@ export default function Products() {
             ></div>
 
             
-  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
+  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-50 transition-opacity duration-300 "></div>
 
 
 
             {/* Overlay text */}
-            <div className="absolute bottom-5 left-5 text-white lg:text-2xl text-xl  uppercase font-thin font-josefin">
+            <div className="absolute bottom-5 left-5 text-white lg:text-2xl text-xl  uppercase font-thin font-josefin group-hover:text-black ">
               {item.name}
             </div>
         </div>
